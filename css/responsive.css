@@ -152,3 +152,7 @@
   box-shadow: none;
   --tile-size: clamp(44px, 4vw, 70px);
 }
+
+:fullscreen .board-only .board {
+  --tile-size: min(calc((100vw - 166px) / 15), calc((100vh - 121px) / 6));
+}

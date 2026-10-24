@@ -24,12 +24,14 @@ No accounts. No subscriptions. No $199 fee. Just open `index.html` and go.
 ## Quick Start
 
 1. Clone the repo
-2. Open `index.html` in a browser (or serve with any static file server)
-3. Click anywhere to enable audio
-4. Press `F` for fullscreen TV mode
+2. Run `docker compose up -d`
+3. Open `http://localhost:8080` (or the host's address) on the photo frame
+
+Stop the website with `docker compose down`. The site files are mounted read-only
+into the Nginx container, so changes are served without rebuilding an image.
 
 ```bash
-# Or serve locally:
+# Alternatively, serve locally without Docker:
 python3 -m http.server 8080
 # Then open http://localhost:8080
 ```

@@ -1,5 +1,5 @@
-export const GRID_COLS = 22;
-export const GRID_ROWS = 5;
+export const GRID_COLS = 15;
+export const GRID_ROWS = 6;
 
 export const SCRAMBLE_DURATION = 800;
 export const FLIP_DURATION = 300;
@@ -24,6 +24,7 @@ export const MESSAGES = [
     '',
     'GOD IS IN',
     'THE DETAILS .',
+    '',
     '- LUDWIG MIES',
     ''
   ],
@@ -31,6 +32,7 @@ export const MESSAGES = [
     '',
     'STAY HUNGRY',
     'STAY FOOLISH',
+    '',
     '- STEVE JOBS',
     ''
   ],
@@ -38,6 +40,7 @@ export const MESSAGES = [
     '',
     'GOOD DESIGN IS',
     'GOOD BUSINESS',
+    '',
     '- THOMAS WATSON',
     ''
   ],
@@ -45,13 +48,14 @@ export const MESSAGES = [
     '',
     'LESS IS MORE',
     '',
-    '- MIES VAN DER ROHE',
-    ''
+    '- MIES VAN',
+    'DER ROHE'
   ],
   [
     '',
     'MAKE IT SIMPLE',
     'BUT SIGNIFICANT',
+    '',
     '- DON DRAPER',
     ''
   ],
@@ -59,6 +63,7 @@ export const MESSAGES = [
     '',
     'HAVE NO FEAR OF',
     'PERFECTION',
+    '',
     '- SALVADOR DALI',
     ''
   ]
