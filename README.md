@@ -14,7 +14,7 @@ No accounts. No subscriptions. No $199 fee. Just open `index.html` and go.
 
 - Realistic split-flap animation with colorful scramble transitions
 - Authentic mechanical clacking sound (recorded from a real split-flap display)
-- Auto-rotating inspirational quotes
+- Inspirational quotes auto-rotate every five minutes
 - Fullscreen TV mode (press `F`)
 - Keyboard controls for manual navigation
 - Works offline — zero external dependencies
@@ -80,7 +80,7 @@ flipoff/
 Edit `js/constants.js` to change:
 - **Messages**: Add your own quotes or text
 - **Grid size**: Adjust `GRID_COLS` and `GRID_ROWS`
-- **Timing**: Tweak `SCRAMBLE_DURATION`, `STAGGER_DELAY`, etc.
+- **Timing**: Tweak `MESSAGE_INTERVAL`, `SCRAMBLE_DURATION`, `STAGGER_DELAY`, etc.
 - **Colors**: Modify `SCRAMBLE_COLORS` and `ACCENT_COLORS`
 
 ## License

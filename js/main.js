@@ -29,6 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Volume toggle button in header
   const volumeBtn = document.getElementById('volume-btn');
   if (volumeBtn) {
+    volumeBtn.classList.toggle('muted', soundEngine.muted);
     volumeBtn.addEventListener('click', () => {
       initAudio();
       const muted = soundEngine.toggleMute();

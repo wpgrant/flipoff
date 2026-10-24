@@ -1,4 +1,4 @@
-import { MESSAGES, MESSAGE_INTERVAL, TOTAL_TRANSITION } from './constants.js';
+import { MESSAGES, MESSAGE_INTERVAL } from './constants.js';
 
 export class MessageRotator {
   constructor(board) {
@@ -18,7 +18,7 @@ export class MessageRotator {
       if (!this._paused && !this.board.isTransitioning) {
         this.next();
       }
-    }, MESSAGE_INTERVAL + TOTAL_TRANSITION);
+    }, MESSAGE_INTERVAL);
   }
 
   stop() {
@@ -48,7 +48,7 @@ export class MessageRotator {
         if (!this._paused && !this.board.isTransitioning) {
           this.next();
         }
-      }, MESSAGE_INTERVAL + TOTAL_TRANSITION);
+      }, MESSAGE_INTERVAL);
     }
   }
 }

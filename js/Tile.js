@@ -50,8 +50,8 @@ export class Tile {
     setTimeout(() => {
       this.el.classList.add('scrambling');
       let scrambleCount = 0;
-      const maxScrambles = 10 + Math.floor(Math.random() * 4);
-      const scrambleInterval = 70;
+      const scrambleInterval = 100;
+      const maxScrambles = Math.ceil(SCRAMBLE_DURATION / scrambleInterval);
 
       this._scrambleTimer = setInterval(() => {
         // Random character
